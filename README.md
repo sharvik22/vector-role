@@ -24,9 +24,9 @@ clickhouse-role
 Example Playbook
 ----------------
 
-hosts: vector
-roles:
-  - role: vector-role
+    - hosts: vector
+      roles:
+      - { role: vector-role }
 
 License
 -------
